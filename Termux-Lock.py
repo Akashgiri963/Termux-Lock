@@ -13,8 +13,9 @@ yellow = '\033[33m'
 blue = '\033[34m'
 magneto = '\033[36m'
 
+os.system('figlet -c -k -f slant Termux-Lock|lolcat')
 print ( magneto +'\n\t\t[ ★ Termux - Lock ★ ]\n',endc)
-print ( green +'\n\t\tcoded by - Akash Giri\n',endc)
+print ( green +'\t\tcoded by - Akash Giri\n',endc)
 
 def main_menu():
 	dash = '-'
